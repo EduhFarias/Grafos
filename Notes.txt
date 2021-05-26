@@ -1,5 +1,9 @@
 Algorithms:
-  - Bellman-Ford
+  - Bellman-Ford https://www.geeksforgeeks.org/bellman-ford-algorithm-dp-23/
   - Boruvka
   - Floyd Warshaw
   - Tarjan
+  - Ford-Fulkerson https://www.geeksforgeeks.org/ford-fulkerson-algorithm-for-maximum-flow-problem/
+  - Dijkstra https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-greedy-algo-7/
+  - Prim https://www.geeksforgeeks.org/prims-minimum-spanning-tree-mst-greedy-algo-5/
+  - Kruskal https://www.geeksforgeeks.org/kruskals-minimum-spanning-tree-algorithm-greedy-algo-2/
