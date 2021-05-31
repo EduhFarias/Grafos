@@ -3,7 +3,7 @@
   - Floyd-Warshall -> Correto
   - Prim -> Corrigir usando heap
   - Dijkstra -> Corrigin usando heap
-  - Fazer o quarto algoritmo
+  - Fazer o quarto algoritmo -> Ford-Fulkerson
 > A entrada possui dois inteiros V e E, vértices e arestas, e E linhas do tipo: v1 v2 p, onde v1 forma aresta com v2.
  - 5 7
  - 0 1 1
