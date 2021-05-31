@@ -4,7 +4,7 @@
   - Prim -> Corrigir usando heap
   - Dijkstra -> Corrigin usando heap
   - Fazer o quarto algoritmo
-> A entrada grafo_com_peso.dat possui dois inteiros V e E, vértices e arestas, e E linhas do tipo: v1 v2 p, onde v1 forma aresta com v2.
+> A entrada possui dois inteiros V e E, vértices e arestas, e E linhas do tipo: v1 v2 p, onde v1 forma aresta com v2.
  - 5 7
  - 0 1 1
  - 0 4 2
