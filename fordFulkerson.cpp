@@ -35,7 +35,7 @@ bool bfs(vector<vector<int>>& resGraph, int s, int t, int prev[]){
             }
         }
     }
-	  if(visited[t] == true) return true;
+	if(visited[t] == true) return true;
     return false;
 }
  
@@ -59,23 +59,19 @@ void fordFulkerson(vector<vector<int>>& graph, int s, int t){
         }
         max_flow += flow;
     }
-	  print_path(prev, t);
+	print_path(prev, t);
     cout << "\nO fluxo máximo é de:  " << max_flow << endl;
 }
 
 int main(){
-	
 	int E, src, dest, p;
-  cin >> V >> E;
+  	cin >> V >> E;
 	vector<vector<int>> graph(V,vector<int>(V,0));
 	for(int i = 0; i < E; i++){
 		cin >> src >> dest >> p;
 		graph[src][dest] = p;
 	}
-	int s, t;
-	cout << "Entre com um vértice fonte e outro sumidouro: s t" << endl;
-	cin >> s >> t;
-    fordFulkerson(graph, s, t);
+    fordFulkerson(graph, 0, V-1);
  
     return 0;
 }
