@@ -5,10 +5,21 @@ using namespace std;
 
 vector<pair<int,int>> graph[INT8_MAX];
 
+void print_path(vector<int>& prev, int i){
+	if(prev[i] == -1){
+		cout << i << " ";
+		return;
+	} 
+	print_path(prev, prev[i]);
+	cout << i << " ";
+}
+
 void print(vector<int>& prev, vector<int>& cost, int V){
-	cout << "Aresta  Peso\n";
+	cout << "Aresta  Peso\tCaminho\n";
 	for(int i = 1; i < V; i++){
-		cout << prev[i] << " -> " << i << "\t " << cost[i] << endl;
+		cout << prev[i] << " -> " << i << "\t " << cost[i] << " \t\t " ;
+		print_path(prev, i);
+		cout << "\n";
 	}
 }
 
